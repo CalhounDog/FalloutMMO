@@ -14,7 +14,7 @@ Ensure that you have all the assets needed. These will be hosted on MediaFire fo
 - [x] Completed Item
 - [ ] Uncompleted Item
 
-### Planned Feature
+### Planned Features
 - Asset Integration from FO4 and FNV
 
 ### Collaborators
