@@ -3,7 +3,7 @@ Fallout Multiplayer Project
 
 ## Table of Contents
 + [Deployment](#deployment)
-+ [Features](#current-features)
++ [Features](#features)
 + [Planned Features](#planned-features)
 + [Collaborators](#collaborators)
 
