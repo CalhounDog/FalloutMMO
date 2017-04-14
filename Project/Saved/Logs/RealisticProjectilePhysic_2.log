@@ -1,0 +1,26 @@
+﻿Log file open, 04/12/17 12:53:59
+LogInit:Display: Running engine for game: RealisticProjectilePhysic
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(593940393) SRandInit(593940393).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.075542
+LogModuleManager:Warning: Found module file C:/Users/trees/Desktop/RealisticProjectilePhysic/Binaries/Win64/UE4Editor-RealisticProjectilePhysic.dll (API version 0), but it was incompatible with the current engine API version (3299760). This is likely a stale module that must be recompiled.
+LogInit:Warning: Incompatible or missing module: UE4Editor-RealisticProjectilePhysic.dll
+LogExit: Preparing to exit.
+LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+LogModuleManager: Shutting down and abandoning module Landscape (24)
+LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+LogModuleManager: Shutting down and abandoning module Renderer (14)
+LogModuleManager: Shutting down and abandoning module Engine (12)
+LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+LogModuleManager: Shutting down and abandoning module PakFile (2)
+LogExit: Exiting.
+Log file closed, 04/12/17 12:54:04

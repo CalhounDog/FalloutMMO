@@ -1,0 +1,164 @@
+﻿Log file open, 04/11/17 00:47:23
+LogInit:Display: Running engine for game: RealisticProjectilePhysic
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-215222871) SRandInit(-215222870).
+LogInit: Using version manifest at CL 0 with build ID '2ae30968-5f93-4c4c-9b8c-e07958c15ab0'
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 53.708710
+LogConfig:Warning: Failed to saved backup for config[Engine]
+LogConfig:Warning: Failed to saved backup for config[Input]
+LogConfig:Warning: Failed to saved backup for config[Editor]
+LogConfig:Warning: Failed to saved backup for config[EditorPerProjectUserSettings]
+LogConfig:Warning: Failed to saved backup for config[EditorKeyBindings]
+LogConfig:Warning: Failed to saved backup for config[Compat]
+LogConfig:Warning: Failed to saved backup for config[Lightmass]
+LogConfig:Warning: Failed to saved backup for config[Scalability]
+LogConfig:Warning: Failed to saved backup for config[Hardware]
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-0
+LogInit: Engine Version: 4.15.2-0+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-0+++UE4+Release-4.15
+LogInit: Net CL: 0
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Apr  8 2017 23:09:12
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/UnrealEngineRelease/UnrealEngine-4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 0
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.11-04.47.45:617][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.11-04.47.45:642][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.11-04.47.45:955][  0]LogConfig:Warning: Failed to saved backup for config[DeviceProfiles]
+[2017.04.11-04.47.46:307][  0]LogInit: Computer: CALHOUN
+[2017.04.11-04.47.46:355][  0]LogInit: User: Morgan
+[2017.04.11-04.47.46:355][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.11-04.47.46:355][  0]LogInit: High frequency timer resolution =2.533206 MHz
+[2017.04.11-04.47.46:432][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.04.11-04.47.46:432][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.11-04.47.46:432][  0]LogMemory: Process Physical Memory: 261.00 MB used, 261.00 MB peak
+[2017.04.11-04.47.46:432][  0]LogMemory: Process Virtual Memory: 267.81 MB used, 267.81 MB peak
+[2017.04.11-04.47.46:432][  0]LogMemory: Physical Memory: 7272.83 MB used,  831.45 MB free, 8104.27 MB total
+[2017.04.11-04.47.46:432][  0]LogMemory: Virtual Memory: 620.06 MB used,  831.45 MB free, 134217728.00 MB total
+[2017.04.11-04.48.10:756][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.04.11-04.49.05:089][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.11-04.49.11:952][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2017.04.11-04.49.11:952][  0]LogD3D11RHI:       1980/0/4052 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.04.11-04.49.15:389][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.04.11-04.49.15:389][  0]LogD3D11RHI:       0/0/1792 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.04.11-04.49.15:689][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.11-04.49.15:689][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.11-04.49.15:689][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.11-04.49.16:050][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.11-04.49.16:050][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2017.04.11-04.49.16:263][  0]LogWindows: EnumDisplayDevices:
+[2017.04.11-04.49.16:263][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.04.11-04.49.16:263][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.04.11-04.49.16:264][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.04.11-04.49.16:264][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.04.11-04.49.16:264][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2017.04.11-04.49.16:264][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.04.11-04.49.16:264][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.04.11-04.49.16:301][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.11-04.49.17:945][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.11-04.49.26:274][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 21)
+[2017.04.11-04.49.28:467][  0]LogShaderCompilers: Guid format shader working directory is -32 characters bigger than the processId version (../../../../../Users/Morgan/Desktop/Github/FalloutMMO/RealisticProjectilePhysic/Intermediate/Shaders/WorkingDirectory/7308/).
+[2017.04.11-04.49.28:468][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Morgan/AppData/Local/Temp/UnrealShaderWorkingDir/B62C31B744ACEF1FEB8AE1A0AFBED509/'.
+[2017.04.11-04.49.28:720][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.11-04.50.40:367][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.11-04.50.40:452][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.11-04.50.40:597][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.11-04.50.40:827][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.11-04.50.41:378][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.11-04.50.41:447][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.11-04.50.41:572][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.11-04.50.41:687][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.11-04.50.41:781][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.11-04.50.42:142][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.11-04.50.42:391][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.11-04.50.42:693][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.11-04.50.43:147][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.11-04.50.43:278][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.11-04.50.43:526][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.11-04.50.43:669][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.11-04.50.43:749][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.11-04.50.44:099][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.11-04.50.45:168][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.11-04.50.45:328][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.11-04.50.45:484][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.11-04.50.59:462][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.11-04.51.10:432][  0]LogDerivedDataCache: Loaded boot cache 10.84s 50MB ../../../../../Users/Morgan/Desktop/Github/FalloutMMO/RealisticProjectilePhysic/DerivedDataCache/Boot.ddc.
+[2017.04.11-04.51.10:432][  0]LogDerivedDataCache:Display: Loaded Boot cache: ../../../../../Users/Morgan/Desktop/Github/FalloutMMO/RealisticProjectilePhysic/DerivedDataCache/Boot.ddc
+[2017.04.11-04.51.10:602][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/Morgan/Desktop/Github/FalloutMMO/RealisticProjectilePhysic/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.11-04.51.10:602][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.11-04.51.10:602][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.11-04.51.10:602][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2017.04.11-04.51.11:333][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2017.04.11-04.51.11:333][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2017.04.11-04.51.11:333][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2017.04.11-04.51.16:706][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.11-04.51.19:186][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.11-04.51.19:186][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.11-04.56.14:359][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.11-04.56.17:978][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.11-04.56.51:062][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.11-04.56.51:144][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.11-04.56.51:144][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.11-04.56.51:144][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.04.11-04.59.56:586][  0]LogNetVersion: GetLocalNetworkVersion: CL: 0, ProjectName: realisticprojectilephysic, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1050674056
+[2017.04.11-05.00.03:798][  0]LogAssetRegistry: FAssetRegistry took 0.0232 seconds to start up
+[2017.04.11-05.00.06:365][  0]LogAssetRegistry:Error: Failed to open file for write ../../../../../Users/Morgan/Desktop/Github/FalloutMMO/RealisticProjectilePhysic/Intermediate/AssetRegistryCache/5a627529.bin
+[2017.04.11-05.00.07:773][  0]LogAssetRegistry:Error: Failed to open file for write ../../../../../Users/Morgan/Desktop/Github/FalloutMMO/RealisticProjectilePhysic/Intermediate/AssetRegistryCache/2657c409.bin
+[2017.04.11-05.00.08:083][  0]LogAssetRegistry:Error: Failed to open file for write ../../../../../Users/Morgan/Desktop/Github/FalloutMMO/RealisticProjectilePhysic/Intermediate/AssetRegistryCache/1d5167fa.bin
+[2017.04.11-05.00.08:087][  0]LogFileManager:Warning: MoveFile was unable to move '../../../../../Users/Morgan/Desktop/Github/FalloutMMO/RealisticProjectilePhysic/Intermediate/AssetRegistryCache/866581fd.bin.tmp' to '../../../../../Users/Morgan/Desktop/Github/FalloutMMO/RealisticProjectilePhysic/Intermediate/AssetRegistryCache/866581fd.bin', retrying in .5s...
+[2017.04.11-05.00.08:587][  0]LogFileManager:Warning: MoveFile was unable to move '../../../../../Users/Morgan/Desktop/Github/FalloutMMO/RealisticProjectilePhysic/Intermediate/AssetRegistryCache/866581fd.bin.tmp' to '../../../../../Users/Morgan/Desktop/Github/FalloutMMO/RealisticProjectilePhysic/Intermediate/AssetRegistryCache/866581fd.bin', retrying in .5s...
+[2017.04.11-05.00.09:149][  0]LogFileManager:Warning: MoveFile was unable to move '../../../../../Users/Morgan/Desktop/Github/FalloutMMO/RealisticProjectilePhysic/Intermediate/AssetRegistryCache/866581fd.bin.tmp' to '../../../../../Users/Morgan/Desktop/Github/FalloutMMO/RealisticProjectilePhysic/Intermediate/AssetRegistryCache/866581fd.bin', retrying in .5s...
+[2017.04.11-05.00.09:649][  0]LogFileManager:Warning: MoveFile was unable to move '../../../../../Users/Morgan/Desktop/Github/FalloutMMO/RealisticProjectilePhysic/Intermediate/AssetRegistryCache/866581fd.bin.tmp' to '../../../../../Users/Morgan/Desktop/Github/FalloutMMO/RealisticProjectilePhysic/Intermediate/AssetRegistryCache/866581fd.bin', retrying in .5s...
+[2017.04.11-05.00.10:149][  0]LogFileManager:Warning: MoveFile was unable to move '../../../../../Users/Morgan/Desktop/Github/FalloutMMO/RealisticProjectilePhysic/Intermediate/AssetRegistryCache/866581fd.bin.tmp' to '../../../../../Users/Morgan/Desktop/Github/FalloutMMO/RealisticProjectilePhysic/Intermediate/AssetRegistryCache/866581fd.bin', retrying in .5s...
+[2017.04.11-05.00.10:650][  0]LogFileManager:Warning: MoveFile was unable to move '../../../../../Users/Morgan/Desktop/Github/FalloutMMO/RealisticProjectilePhysic/Intermediate/AssetRegistryCache/866581fd.bin.tmp' to '../../../../../Users/Morgan/Desktop/Github/FalloutMMO/RealisticProjectilePhysic/Intermediate/AssetRegistryCache/866581fd.bin', retrying in .5s...
+[2017.04.11-05.00.11:151][  0]LogFileManager:Warning: MoveFile was unable to move '../../../../../Users/Morgan/Desktop/Github/FalloutMMO/RealisticProjectilePhysic/Intermediate/AssetRegistryCache/866581fd.bin.tmp' to '../../../../../Users/Morgan/Desktop/Github/FalloutMMO/RealisticProjectilePhysic/Intermediate/AssetRegistryCache/866581fd.bin', retrying in .5s...
+[2017.04.11-05.00.11:652][  0]LogFileManager:Warning: MoveFile was unable to move '../../../../../Users/Morgan/Desktop/Github/FalloutMMO/RealisticProjectilePhysic/Intermediate/AssetRegistryCache/866581fd.bin.tmp' to '../../../../../Users/Morgan/Desktop/Github/FalloutMMO/RealisticProjectilePhysic/Intermediate/AssetRegistryCache/866581fd.bin', retrying in .5s...
+[2017.04.11-05.00.12:153][  0]LogFileManager:Warning: MoveFile was unable to move '../../../../../Users/Morgan/Desktop/Github/FalloutMMO/RealisticProjectilePhysic/Intermediate/AssetRegistryCache/866581fd.bin.tmp' to '../../../../../Users/Morgan/Desktop/Github/FalloutMMO/RealisticProjectilePhysic/Intermediate/AssetRegistryCache/866581fd.bin', retrying in .5s...
+[2017.04.11-05.00.12:653][  0]LogFileManager:Warning: MoveFile was unable to move '../../../../../Users/Morgan/Desktop/Github/FalloutMMO/RealisticProjectilePhysic/Intermediate/AssetRegistryCache/866581fd.bin.tmp' to '../../../../../Users/Morgan/Desktop/Github/FalloutMMO/RealisticProjectilePhysic/Intermediate/AssetRegistryCache/866581fd.bin', retrying in .5s...
+[2017.04.11-05.00.13:154][  0]LogFileManager:Error: Error moving file '../../../../../Users/Morgan/Desktop/Github/FalloutMMO/RealisticProjectilePhysic/Intermediate/AssetRegistryCache/866581fd.bin.tmp' to '../../../../../Users/Morgan/Desktop/Github/FalloutMMO/RealisticProjectilePhysic/Intermediate/AssetRegistryCache/866581fd.bin'.
+[2017.04.11-05.00.13:163][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 7.966501 seconds
+[2017.04.11-05.00.13:168][  0]LogUObjectArray: 32452 objects as part of root set at end of initial load.
+[2017.04.11-05.00.13:168][  0]LogUObjectAllocator: 7070296 out of 0 bytes used by permanent object pool.
+[2017.04.11-05.00.13:168][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.11-05.00.14:023][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.11-05.08.40:679][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.11-05.08.41:446][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.11-05.10.02:983][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.11-05.10.46:141][  0]SourceControl: Info Source control is disabled
+[2017.04.11-05.10.58:686][  0]SourceControl: Info Source control is disabled
